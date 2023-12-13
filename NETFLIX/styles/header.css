@@ -41,11 +41,16 @@
 }
 
 .navigation_bar > .navigation_tab {
-  font-size: 11px;
+  font-size: 1vw;
   text-align: center;
   margin-right: 10px;
   cursor: pointer;
   color: #e5e5e5;
+  transition: color 0.4s;
+}
+
+.navigation_tab:hover {
+  color: #b3b3b3;
 }
 
 .right_section {
@@ -138,14 +143,16 @@
 .main_wrap_content {
   position: absolute;
   z-index: 3;
-  top: 140px;
-  left: 40px;
-  width: 36%;
+  top: 10vw;
+  width: 30vw;
+  margin-left: 40px;
 }
 
 .main_wrap_title,
 .main_wrap_subtitle {
   width: 100%;
+  font-size: 1.2vw;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
 }
 
 .main_wrap {
@@ -166,13 +173,13 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  margin-top: 20px;
+  margin-top: 2vw;
   width: 250px;
 }
 
 .main_start_button {
-  width: 70px;
-  height: 30px;
+  width: 5vw;
+  height: 3vw;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -184,11 +191,12 @@
   margin-right: 10px;
   font-weight: 500;
   cursor: pointer;
+  font-size: 1vw;
 }
 
 .main_info_button {
-  width: 100px;
-  height: 30px;
+  width: 7vw;
+  height: 3vw;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -200,4 +208,5 @@
   color: #fff;
   font-weight: 500;
   cursor: pointer;
+  font-size: 1vw;
 }
