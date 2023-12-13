@@ -1,0 +1,203 @@
+.header {
+  height: 68px;
+  width: 100%;
+  flex: 1;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.7) 10%,
+    transparent
+  );
+}
+
+.left_section {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  flex: 8;
+}
+
+.netflix_logo {
+  width: 92px;
+  height: 31px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.navigation_bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.navigation_bar > .navigation_tab {
+  font-size: 11px;
+  text-align: center;
+  margin-right: 10px;
+  cursor: pointer;
+  color: #e5e5e5;
+}
+
+.right_section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 30px;
+  padding-left: 100px;
+  width: 250px;
+}
+
+.notifications_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  width: 36px;
+  height: 32px;
+  margin-right: 15px;
+}
+
+.notifications_icon {
+  width: 24px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.notifications_count {
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  font-size: 9px;
+  background-color: red;
+  padding: 1px 4px 1px 4px;
+  border-radius: 100px;
+  z-index: 9;
+  font-weight: 500;
+}
+
+.search_button {
+  background-color: transparent;
+  border: 0px;
+  margin-right: 15px;
+}
+
+.search_icon {
+  width: 20px;
+  cursor: pointer;
+}
+
+.search_icon_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.user_setting_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.user_icon {
+  width: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.arrow {
+  width: 0px;
+  height: 0px;
+  border-top: calc(4px * 1.732) solid #fff;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  margin-left: 10px;
+  transition: transform 367ms;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  transform: rotate(180deg);
+}
+
+.main_wrap_container {
+  position: relative;
+  top: -68px;
+}
+
+.main_wrap_content {
+  position: absolute;
+  z-index: 3;
+  top: 140px;
+  left: 40px;
+  width: 36%;
+}
+
+.main_wrap_title,
+.main_wrap_subtitle {
+  width: 100%;
+}
+
+.main_wrap {
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.7) 30%,
+    transparent
+  );
+}
+
+.main_wrap_image,
+.main_wrap {
+  width: 100%;
+}
+
+.main_button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+  width: 250px;
+}
+
+.main_start_button {
+  width: 70px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 10px;
+  background-color: #fff;
+  border: 0px;
+  border-radius: 3px;
+  margin-right: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.main_info_button {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 10px;
+  background-color: #6d6d6e;
+  border: 0px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
