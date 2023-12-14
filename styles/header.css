@@ -145,14 +145,14 @@
   position: absolute;
   z-index: 3;
   top: 10vw;
-  width: 30vw;
+  width: 35vw;
   margin-left: 40px;
 }
 
 .main_wrap_title,
 .main_wrap_subtitle {
   width: 100%;
-  font-size: 1.2vw;
+  font-size: 1.1vw;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
 }
 
@@ -175,11 +175,11 @@
   align-items: center;
   justify-content: flex-start;
   margin-top: 2vw;
-  width: 250px;
+  width: 3vw;
 }
 
 .main_start_button {
-  width: 5vw;
+  width: 6vw;
   height: 3vw;
   display: flex;
   flex-direction: row;
@@ -196,7 +196,7 @@
 }
 
 .main_info_button {
-  width: 7vw;
+  width: 8vw;
   height: 3vw;
   display: flex;
   flex-direction: row;
@@ -210,4 +210,8 @@
   font-weight: 500;
   cursor: pointer;
   font-size: 1vw;
+}
+
+button > img {
+  width: 1vw;
 }
