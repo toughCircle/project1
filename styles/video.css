@@ -1,45 +1,31 @@
 .contents {
   position: relative;
   top: -140px;
-  display: block;
+  min-height: 100%;
 }
 
 .card_container1 {
   width: 100%;
-  height: 280px;
-  position: absolute;
-  z-index: 3;
   padding: 0px 5.5vw;
-  display: block;
+  margin-bottom: 50px;
 }
 
 .card_container2 {
   width: 100%;
-  height: 280px;
-  position: absolute;
-  top: 28vw;
-  z-index: 3;
   padding: 0px 5.5vw;
-  display: block;
+  margin-bottom: 50px;
 }
 
 .card_container3 {
   width: 100%;
-  height: 280px;
-  position: absolute;
-  top: 56vw;
-  z-index: 3;
   padding: 0px 5.5vw;
-  display: block;
+  margin-bottom: 50px;
 }
 
 .card_container4 {
   width: 100%;
-  height: 280px;
-  position: absolute;
-  top: 84vw;
-  z-index: 3;
   padding: 0px 5.5vw;
+  margin-bottom: 50px;
 }
 
 .card_title {
@@ -72,21 +58,27 @@
   position: relative;
   width: 100%;
   height: 100px;
-  display: block;
+  padding: 0 5.5vw;
 }
 
 .footer {
-  position: absolute;
-  width: 100%;
+  min-width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin: 20px auto 0;
-  padding: 0 5.5vw;
-  justify-content: center;
+  margin: 20px auto 10px 0;
 }
 
 footer > div {
-  font-size: 13px;
+  font-size: 1.3vw;
   color: gray;
   margin-bottom: 15px;
+  font-weight: 300;
+}
+
+.footer_content {
+  color: #808080;
+  font-size: 1vw;
+  font-weight: 300;
+  line-height: 1.7;
+  padding-bottom: 30px;
 }
