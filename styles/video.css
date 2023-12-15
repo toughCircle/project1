@@ -1,32 +1,45 @@
 .contents {
   position: relative;
   top: -140px;
+  display: block;
 }
 
 .card_container1 {
-  width: 97%;
+  width: 100%;
   height: 280px;
   position: absolute;
   z-index: 3;
-  margin-left: 40px;
+  padding: 0px 5.5vw;
+  display: block;
 }
 
 .card_container2 {
-  width: 97%;
+  width: 100%;
   height: 280px;
   position: absolute;
   top: 28vw;
   z-index: 3;
-  margin-left: 40px;
+  padding: 0px 5.5vw;
+  display: block;
 }
 
 .card_container3 {
-  width: 97%;
+  width: 100%;
   height: 280px;
   position: absolute;
   top: 56vw;
   z-index: 3;
-  margin-left: 40px;
+  padding: 0px 5.5vw;
+  display: block;
+}
+
+.card_container4 {
+  width: 100%;
+  height: 280px;
+  position: absolute;
+  top: 84vw;
+  z-index: 3;
+  padding: 0px 5.5vw;
 }
 
 .card_title {
@@ -34,15 +47,14 @@
   margin-bottom: 1vw;
   font-size: 1.7vw;
   font-weight: 500;
-  margin-left: 1.5vw;
+  width: 100%;
 }
 
 .card_image {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-right: 40px;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .card_image > img {
@@ -54,4 +66,27 @@
 
 .card_image > img:hover {
   transform: scale(1.2, 1.2);
+}
+
+.footer_container {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  display: block;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 20px auto 0;
+  padding: 0 5.5vw;
+  justify-content: center;
+}
+
+footer > div {
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 15px;
 }
